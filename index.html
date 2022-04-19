@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Staff tracking blocker</title>
+        <!-- Load styles -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Load Scripts  -->
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body>
+
+        <div class="header">
+            <h2>Staff Tracker Blocker</h2>
+            <div class="progress-container" style="display: none;">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>Please select test environment:</p>
+            <!-- Two buttons -->
+            <div class="button-container">
+                <button class="button" id="test-env-1" onclick="location.href = './normal.html';">Simulate normal
+                    visitor</button>
+                <button class="button" id="test-env-2" onclick="location.href = './staff.html';">Simulate Staff</button>
+            </div>
+        </div>
+
+    </body>
+
+</html>
